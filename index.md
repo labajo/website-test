@@ -8,6 +8,11 @@ Texto de introducción
 
 ## Resultados 2023
 
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
 A continuación se muestran los resultados de 2023:
 
 | Fecha    | Título  |  Localidad   |  Categoría  | Resultados |
