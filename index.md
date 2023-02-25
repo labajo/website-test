@@ -8,12 +8,14 @@ Texto de introducción
 
 ## Resultados 2023
 
+{% include button.html text="Acta⬇️" link="./resultados/2023/sample.pdf" color="#0366d6" %}
+
 A continuación se muestran los resultados de 2023:
 
 | Fecha      | Titulo | Localidad     | Categoría    | Resultados | 
 |    :----:   |    :----:   |    :----:   |     :----:   |     :----:   |
-| 12/02/23 | Comp 1  dsgsdfg sdfsdf sdfsdf  |  Valladolid  |  Audfgdfggdfg |  {% include button.html text="Acta⬇️"  link="./resultados/2023/sample.pdf" color="#0366d6" %} |
-| 26/02/23 | Comp 1  dsgsdfg sdfsdf sdfsdf  |  Valladolid  |  Audfgdfggdfg |  {% include button.html text="Acta⬇️"  link="./resultados/2023/sample.pdf" color="#0366d6" %} |
+| 12/02/23 | Comp 1  dsgsdfg sdfsdf sdfsdf  |  Valladolid  |  Audfgdfggdfg |  sdfsdf |
+| 26/02/23 | Comp 1  dsgsdfg sdfsdf sdfsdf  |  Valladolid  |  Audfgdfggdfg |  sdfsdf |
 
 
 ### Notas
