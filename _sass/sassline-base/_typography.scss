@@ -210,6 +210,24 @@ a {
   }
 
   // Tables.
+  // table {
+  //   @include sassline(eta, $headingtype, 2, 0, all);
+
+  //   font-family: unquote(map-get($headingtype, font-family));
+  //   font-feature-settings: 'liga', 'lnum', 'tnum', 'kern';
+  //   font-style: normal;
+  //   font-weight: map-get($headingtype, regular);
+  //   width: 100%;
+
+  //   thead {
+
+  //     th {
+  //       @include sassline(zeta, $headingtype, 2, 0, all);
+  //       padding-bottom: 1px;
+  //     }
+  //   }
+  // }
+
   table {
     @include sassline(eta, $headingtype, 2, 0, all);
 
@@ -218,12 +236,26 @@ a {
     font-style: normal;
     font-weight: map-get($headingtype, regular);
     width: 100%;
+    margin: 25px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 
     thead {
 
-      th {
-        @include sassline(zeta, $headingtype, 2, 0, all);
-        padding-bottom: 1px;
+      tr {
+        background-color: #009879;
+        color: #ffffff;
+      }
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid #dddddd;
+      }
+      tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+      tr:last-of-type {
+        border-bottom: 2px solid #009879;
       }
     }
   }
