@@ -244,6 +244,9 @@ a {
       tr {
         th {
           padding: 4px 6px;
+          border-left: 1px solid #aaaaaa;
+          border-right: 1px solid #aaaaaa;
+          border-collapse: collapse;
         }
         background-color: #009879;
         color: #ffffff;
@@ -254,18 +257,27 @@ a {
       tr {
         td {
           padding: 4px 6px;
+          border-left: 1px solid #aaaaaa;
+          border-right: 1px solid #aaaaaa;
+          border-collapse: collapse;
         }
         border-bottom: 1px solid #dddddd;
       }
       tr:nth-of-type(even) {
         td {
           padding: 4px 6px;
+          border-left: 1px solid #aaaaaa;
+          border-right: 1px solid #aaaaaa;
+          border-collapse: collapse;
         }
         background-color: #f3f3f3;
       }
       tr:last-of-type {
         td {
           padding: 4px 6px;
+          border-left: 1px solid #aaaaaa;
+          border-right: 1px solid #aaaaaa;
+          border-collapse: collapse;
         }
         border-bottom: 2px solid #009879;
       }
