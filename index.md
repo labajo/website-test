@@ -21,7 +21,7 @@ A continuación se muestran los resultados de 2023:
 
 | Fecha    |  Título  |  Localidad   |  Categoría  | Resultados |
 |----------|----------|--------------|-------------|------------|
-| 12/02/23 | Comp 1   |  Valladolid  |  Au         |  {% include button.html text="Acta" icon="download" link="./resultados/2023/simple.pdf" color="#0366d6" %} | 
+| 12/02/23 | Comp 1   |  Valladolid  |  Au         |  {% include button.html text="Acta ⬇️" icon="download" link="./resultados/2023/simple.pdf" color="#0366d6" %} | 
 
 
 
